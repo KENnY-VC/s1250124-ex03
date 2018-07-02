@@ -4,8 +4,14 @@
 
 int main(){
   int d1, d2;
+  char name[32];
 
   srand(time(NULL));
+
+  printf("What your name?\n");
+  printf("> ");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
 
   printf("Rolling the dice...\n");
 
